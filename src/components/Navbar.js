@@ -1,4 +1,6 @@
 import Navbars from 'react-bootstrap/Navbar';
+import CartWidget from './CartWidget';
+import ItemListContainer from './ItemListContainer';
 const Navbar = () => {
   return (
     <div className="container-fluid">
@@ -28,11 +30,16 @@ const Navbar = () => {
                 <a className="nav-link disabled">Contacto</a>
               </li>
             </ul>
+            <div className='CardWidget'>
+              <CartWidget />
+            </div>
 
           </div>
         </div>
       </nav>
     </div>
+
+
   )
 }
 
