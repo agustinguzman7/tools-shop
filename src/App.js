@@ -5,7 +5,7 @@ const App = () => {
   return (
     <div className="App">
         <Navbar/>
-        <ItemListContainer/>
+        <ItemListContainer greeting={'Mi futuro catalogo'}/>
     </div>
 
   );
